@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.gradient-m {
+  font-size: 9rem; /* Tamaño de la letra */
+  color: transparent; /* Hace que el texto sea transparente */
+  background: linear-gradient(0deg, rgba(4,96,234,1) 50%, rgba(0,176,255,1) 100%);
+  -webkit-background-clip: text; /* Permite que el fondo del gradiente aparezca solo en el texto */
+  background-clip: text;
+  display: inline-block;
+}
